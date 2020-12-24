@@ -11,19 +11,19 @@ Free Twitch Bot built on Node.js
 
 #### Important links
 
-- **DISCORD**: https://discordapp.com/invite/52KpmuH
-- **GITHUB**: https://github.com/sogehige/sogeBot
-- **DOCS**: http://sogehige.github.io/sogeBot/
-- **ISSUES**: https://github.com/sogehige/sogeBot/issues
-- **RELEASES**: https://github.com/sogehige/sogeBot/releases
-- **FORUM, IDEAS & SUGGESTIONS**: https://community.sogebot.xyz/
+- **DISCORD**: 
+- **GITHUB**: https://github.com/gbowne1/TwitchBot
+- **DOCS**: http://github.io/gbowne1/TwitchBot/
+- **ISSUES**: https://github.com/gbowne1/TwitchBot/issues
+- **RELEASES**: https://github.com/TwitchBot/releases
+- **FORUM, IDEAS & SUGGESTIONS**: 
 
 #### Screenshots
-<img src="https://drive.google.com/uc?id=1yaD6hiHQ8CuZ1konVSK_Iy_7Dbb3-WQC" width="200"> <img src="https://drive.google.com/uc?id=1j0immtX6yutNcNGErHDSwjtqDz2AGfLS" width="200"> <img src="https://drive.google.com/uc?id=1Nshe2MqYpd3fzNyCXmbWDJmR61_RWpVE" width="200"> <img src="https://drive.google.com/uc?id=1mPg3wkFdP_F3jVV5eYenf1CiCenvuU-P" width="200"> <img src="https://drive.google.com/uc?id=1k7vyakPrKid73rGx7qfJcxzBUGcxl8dS" width="200"> <img src="https://drive.google.com/uc?id=1AAZMLew__TkpiQ_QbRZPxV-r9p_So7vG" width="200"> <img src="https://drive.google.com/uc?id=1jcS7GDld7gaMqDYbdGqM8wOqWEpP7Jfo" width="200">
+
 
 #### Issues
-If you found an issue with a bot, feel free to create issue at https://github.com/sogehige/SogeBot/issues.
-You can also contact me on my email sogehige@gmail.com or get support on our [discord server](https://discordapp.com/invite/52KpmuH).
+If you found an issue with a bot, feel free to create issue at https://github.com/gbowne1/TwitchBot/issues.
+You can also contact me on my email gbowne144@gmail.com or get support on our [discord server]().
 
 | System             | Description                                                                                                                              |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ You can also contact me on my email sogehige@gmail.com or get support on our [di
 | Price              | Make viewers to spend points on e.g. !songrequest                                                                                        |
 | Ranks              | Create ranks for your viewers                                                                                                            |
 | Levels             | Create levels for your viewers                                                                                                            |
-| Scrim              | Scrim system to play againts your viewers in Fortnite etc.                                                                                                            |
+|                    |                                                                                                             |
 | Custom commands    | Create custom commands, call custom APIs, set custom variables                                                                           |
 | Timers             | Post a response every x seconds, x messages                                                                                              |
 | Queue              | Do you lost track of viewers who wants to play with you? Use !queue and be fair!                                                         |
@@ -49,30 +49,29 @@ You can also contact me on my email sogehige@gmail.com or get support on our [di
 |                    | Many widgets for your dashboard: customizable soundboard (/public/dist/soundboard/), follower list, twitch monitor, bets, songs and more |
 |                    | Be able to set your !title and !game from dashboard and **save** them for further use! Use custom variables in titles                    |
 | Overlay            | Use various overlays in your OBS or XSplit                                                                                               |
-| PhillipsHue        | Blink your lights on follower or any other event                                                                                         |
+|                    |                                                                                          |
 | Events             | On numerous events run commands, send messages, do whatever!                                                                             |
 | Chat Games         | bets, heists, duels, wheel of fortune                                                                                                    |
 | Integrations       | **Streamlabs**, DonationAlerts.ru, Twitter                                                                                               |
 
 | Game             | Description                                    |
 |------------------|------------------------------------------------|
-| Bets             |                                                |
-| Gambling         | !seppuku, !roulette commands                   |
-| Duel             | !duel - bet your points, only one can win      |
-| Heists           | !bankheist                                     |
-| Wheel Of Fortune | !wof                                           |
+| Eliza            |                                                |
+| Trivia           |                                                |
+|                  |                                                |
+|                  |                                                |
+|                  |                                                |
 
 | Overlay          | Description                                                           |
 |------------------|-----------------------------------------------------------------------|
-| Emotes           | Show chat message emotes in your stream!                              |
-| Stats            | Show viewers, follower, uptime                                        |
-| ImageCarousel    | Simple image fadeIn/fadeOut carousel                                  |
+|                  | Show chat message emotes in your stream!                              |
+|                  | Show viewers, follower, uptime                                        |
+|                  | Simple image fadeIn/fadeOut carousel                                  |
 | Alerts           | Show images, play audio/video |
 | Clips            | Show clips created through events as replays |
 | Credits          | End credits like in a movie                                           |
 | Text             | Show text and variables ($ytSong etc.) |
-| Eventlist        | Show last events                                                      |
-| Wheel Of Fortune | Show wheel of fortune spin                                            |
+|                  | Show wheel of fortune spin                                            |
 | Bets             | Show current bet                                                      |
 | Goals            | Show your goals!                                                      |
 

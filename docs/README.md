@@ -1,13 +1,13 @@
 # TwitchBot
 
-[![Discord](https://img.shields.io/discord/317348946144002050.svg?style=for-the-badge&logo=discord)](https://discordapp.com/invite/52KpmuH)
+[![Discord])
 [![GitHub release]
 [![Downloads
-[![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/sogetwitch/5eur)
+[![Donate]
 [![Patreon] 
 
 
-Free Twitch Bot built on Node.js
+Complete Free Twitch Bot built on Node.js for 
 
 #### Important links
 
@@ -51,7 +51,7 @@ You can also contact me on my email gbowne144@gmail.com or get support on our [d
 |                    |                                                                                          |
 | Events             | On numerous events run commands, send messages, do whatever!                                                                             |
 | Chat Games         | bets, heists, duels, wheel of fortune                                                                                                    |
-| Integrations       | **Streamlabs**, DonationAlerts.ru, Twitter                                                                                               |
+| Integrations       | **OBS**,  **Streamlabs**,  Discord, Twitter                                                                                               |
 
 | Game             | Description                                    |
 |------------------|------------------------------------------------|
@@ -66,13 +66,13 @@ You can also contact me on my email gbowne144@gmail.com or get support on our [d
 |                  | Show chat message emotes in your stream!                              |
 |                  | Show viewers, follower, uptime                                        |
 |                  | Simple image fadeIn/fadeOut carousel                                  |
-| Alerts           | Show images, play audio/video |
-| Clips            | Show clips created through events as replays |
+| Alerts           | Show images, play audio/video                                         |
+| Clips            | Show clips created through events as replays                          |
 | Credits          | End credits like in a movie                                           |
-| Text             | Show text and variables ($ytSong etc.) |
+| Text             | Show text and variables ($ytSong etc.)                                |
 |                  | Show wheel of fortune spin                                            |
-| Bets             | Show current bet                                                      |
-| Goals            | Show your goals!                                                      |
+|                  | Show current bet                                                      |
+|                  | Show your goals!                                                      |
 
 #### Languages
 * English

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/css/main.css?m={{.ModifiedHash}}">
+
+    <title>Admin - Bot by UberSwe</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="alert alert-warning" role="alert">
+            This bot is in Alpha, some things might not work as expected and the bot may stop working. Any changes you
+            make
+            on the page could be lost as I make improvements and changes.
+        </div>
+
+        <div id="alert-area">
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm">
+            <form>
+                <div class="form-group" id="bottext">
+                    {{ if .BotConnected }}
+                        <p>You have connected your own bot <b>{{.BotName}}</b></p>
+                        <button type="submit" class="btn btn-danger" id="disconnectbot">Disconnect</button>
+                    {{ else }}
+                        {{ if .BotName }}
+                        <label for="botlink">Connect a custom Twitch account to use as your bot</label>
+                        <p>Currently your bot is <b>{{ .BotName }}</b> but you can connect your own account to be used as
+                            a bot
+                            using the link below. I recommend opening a separate browser or private window where you can
+                            login and connect with the bot Twitch account.</p>
+                        <input type="text" class="form-control" id="botlink" name="botlink" value="{{.BotURL}}"
+                               disabled>
+
+                        {{ else }}
+                            <p>No bot is connected, please connect a bot account using the link below to get started. I recommend opening a separate browser or private window where you can
+                                login and connect with the bot Twitch account.</p>
+                            <input type="text" class="form-control" id="botlink" name="botlink" value="{{.BotURL}}"
+                                   disabled>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </form>
+        </div>
+        <div class="col-sm">
+
+            <div id="messages" class="messages">
+                <div class="message">
+                    Your chat feed will show here.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row top-buffer">
+        <div class="col-sm">
+            <h2>Variables</h2>
+            <div id="variables">
+                <p><b>user</b> - If your command specified a user such as <b>@uberswe</b>.</p>
+                <p><b>lasthost</b> - This will be the user who last hosted your channel.</p>
+                <p><b>lastraid</b> - This will be the user who last raided your channel.</p>
+                <p><b>lasthostraid</b> - This will be the user who last hosted or raided your channel.</p>
+            </div>
+        </div>
+        <div class="col-sm">
+            <h2>Commands</h2>
+            <form>
+                <div class="form-group">
+                    <label for="command">Create a command</label>
+                    <input type="text" class="form-control" id="command" name="command"
+                           placeholder="!so {user}">
+                    <label for="commandtext">Message text</label>
+                    <input type="text" class="form-control" id="commandtext" name="commandtext"
+                           placeholder="Check out and follow @{user}! https://twitch.tv/{user}">
+                </div>
+                <button type="submit" class="btn btn-primary" id="createcommand">Create</button>
+                <div class="commands" id="commands">
+                    <div class="cmd">
+                        <p><b>!so {user}</b></p>
+                        <p>Check out and follow @{user}! https://twitch.tv/{user}</p>
+                        <button type="submit" class="btn btn-danger" id="removecommand">Remove</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row" style="text-align: center; margin-top: 20px;">
+        <div class="col-md-6">
+            Made with&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                 class="text-red-600 fill-current">
+                <path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"></path>
+            </svg>
+            &nbsp;by&nbsp;<a href="https://uberswe.com">UberSwe</a>
+        </div>
+
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-danger" id="logout">Logout</button>
+        </div>
+    </div>
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="/assets/js/main.js?m={{.ModifiedHash}}"></script>
+
+
+</body>
+</html>

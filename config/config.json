@@ -1,0 +1,43 @@
+{
+    "general": {
+      "server": "irc.twitch.tv",
+      "special_access": {
+        "staff": true,
+        "mod": true,
+        "global_mod": true,
+        "admin": true
+      },
+      "commandrate": {
+        "time_limit": 30,
+        "cmd_limit": 100
+      },
+      "oauth": "oauth:key_from_http://twitchapps.com/tmi",
+      "channel": "#channel_name",
+      "port": 6667,
+      "botname": "bot_account_name",
+      "server": "irc.twitch.tv",
+      "verbose_logs": false
+    },
+    "commands": {
+      ":!Hello": {
+        "response": "Hello ${USER}$",
+        "sub_only": false,
+        "cooldown": 5
+      },
+      ":!mycommand": {
+        "response": "Custom response",
+        "sub_only": false,
+        "cooldown": 5
+      },
+      ":!uptime": {
+        "response": "${UPTIME}$",
+        "sub_only": false,
+        "cooldown": 90.0
+      },
+      ":!anothercmd": {
+        "response": "Another response",
+        "sub_only": false,
+        "cooldown": 5
+      }
+    }
+  }

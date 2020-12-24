@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitch Bot!</title>
+    <meta name="description" content="A very basic twitch.tv bot example.">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/dd532795-a0db-4c04-9716-2806e7a024f4%2Ffavicon.ico?1496810242595" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: helvetica, arial, sans-serif;
+        margin: 25px;
+      }
+
+      h1 {
+        font-weight: bold;
+        color: pink;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      p {
+        max-width: 600px;
+      }
+
+      button {
+        font-size: 16px;
+        border-radius: 3px;
+        background-color: lightgrey;
+        border: 1px solid grey;
+        box-shadow: 2px 2px teal;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: yellow;
+      }
+
+      button:active {
+        box-shadow: none;
+      }
+
+      li {
+        margin-bottom: 5px;
+        max-width: 600px;
+      }
+
+      footer {
+        margin-top: 50px;
+        padding-top: 25px;
+        border-top: 1px solid lightgrey;
+      }
+
+      footer > a {
+        color: #BBBBBB;
+      }
+      
+      .container {
+        position: relative;
+        margin: 5px;
+      }
+      
+      .gif {
+        float: left;
+        display: block;
+        margin-right: 5px;
+      }
+      
+      .info {
+        overflow: hidden;
+        top: 0;
+        right: 0;
+       }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gif">
+        <img src="https://cdn.glitch.com/dd532795-a0db-4c04-9716-2806e7a024f4%2Fshinbot.gif?1496810079171" alt="The bot in action." />
+      </div>
+
+      <div class="info">
+        <article>
+          <div><p>Twitch Bot (<a href="https://glitch.com/edit/#!/twitch-bot?path=index.js:1:0">view source on Glitch</a>)</p>
+            <blockquote>
+              <p>A bare bones example on how to add a <a href="https://twitch.tv">Twitch</a> bot to your Twitch chat using <a href="https://tmijs.org/">tmi.js</a> and <strong>Glitch</strong>.</p>
+            </blockquote>
+            <p>What you need</p>
+            <hr>
+            <ul>
+              <li>First, your own <a href="https://twitch.tv/signup">Twitch.tv account</a>.</li>
+              <li>Log out (or use different browser) after creating your account.</li>
+              <li>Create an <a href="https://twitch.tv/signup">account</a> for your bot to use.</li>
+              <li>Stay logged in to the bot account and continue to the next step.</li>
+              <li>Visit <a href="https://twitchapps.com/tmi/">TwitchApps/TMI</a> to generate and oauth token</li>
+              <li>Edit .env file add the USERNAME and oauth PASSWORD for your bot.</li>
+              <li>After a moment or two you should see your bot join <a href="twitch.tv/shinbot/chat">twitch.tv/shinbot/chat</a></li>
+              <li>Edit index.js line 26 <code>channels: ["shinbot"]</code> to point to your channel, this is the channel you want to bot to join.</li>
+              <li>I have included two example commands both currently pointing to the <code>shinbot</code> channel you should update those too. To add more simply extend out the switch statement. For further documentation see <a href="https://docs.tmijs.org/">tmi.js</a>.</li>
+              <li>Follow me on <a href="https://twitch.tv/shindakun">Twitch</a>.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>

@@ -1,11 +1,11 @@
-# SogeBot
+# TwitchBot
 
 [![Discord](https://img.shields.io/discord/317348946144002050.svg?style=for-the-badge&logo=discord)](https://discordapp.com/invite/52KpmuH)
-[![GitHub release](https://img.shields.io/github/release/sogehige/sogebot.svg?style=for-the-badge)](https://github.com/sogehige/sogeBot/releases)
-[![Downloads](https://img.shields.io/github/downloads/sogehige/sogebot/total.svg?style=for-the-badge)](https://github.com/sogehige/sogeBot/releases)
+[![GitHub release]
+[![Downloads
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/sogetwitch/5eur)
-[![Patreon](https://img.shields.io/badge/dynamic/json?logo=patreon&style=for-the-badge&color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F3198445)](https://www.patreon.com/soge__)
-[![Codecov](https://img.shields.io/codecov/c/github/sogehige/sogebot/master?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/sogehige/sogeBot/branch/master)
+[![Patreon] 
+
 
 Free Twitch Bot built on Node.js
 
@@ -40,15 +40,14 @@ You can also contact me on my email gbowne144@gmail.com or get support on our [d
 | Queue              | Do you lost track of viewers who wants to play with you? Use !queue and be fair!                                                         |
 | Raffles            | Create raffles for you giveaways!                                                                                                        |
 | Youtube            | **Songrequest** and **multiple playlist** support for YouTube with **trimming** of videos and **auto volume normalization**                       |
-| Spotify            | **Songrequest** for Spotify Premium Users                                                                                                |
-| Cooldowns          | Stop spamming of commands with cooldowns!                                                                                                |
+| Spotify            | **Songrequest** for Spotify  ]                                                                                                |
 | Permissions        | Set your custom permissions for your commands! (owner, mods, regular, viewer)                                                            |
 | Moderation         | Automoderate links, colors, symbols, blacklist and more!                                                                                 |
 | Twitch             | Be able to change your game and title from webpanel and much more! !uptime, !lastseen, etc.                                              |
 | Webpanel and Stats | Bot is tracking your twitch **stats** and bot **webpanel** is user friendly and full of features!                                        |
 |                    | Many widgets for your dashboard: customizable soundboard (/public/dist/soundboard/), follower list, twitch monitor, bets, songs and more |
 |                    | Be able to set your !title and !game from dashboard and **save** them for further use! Use custom variables in titles                    |
-| Overlay            | Use various overlays in your OBS or XSplit                                                                                               |
+| Overlay            | Use various overlays in your OBS broadcaster                                                                                              |
 |                    |                                                                                          |
 | Events             | On numerous events run commands, send messages, do whatever!                                                                             |
 | Chat Games         | bets, heists, duels, wheel of fortune                                                                                                    |
@@ -76,15 +75,13 @@ You can also contact me on my email gbowne144@gmail.com or get support on our [d
 | Goals            | Show your goals!                                                      |
 
 #### Languages
-
-* Cestina
 * English
 
 #### Documentation
-http://sogehige.github.io/sogeBot/#/
+
 
 #### FAQ
-http://sogehige.github.io/sogeBot/#/faq
+
 
 #### License
 
@@ -94,6 +91,6 @@ See LICENSE file
 
 Special thanks goes to team behing tmi.js (you can check it on https://www.tmijs.org/) and twitch-js (https://github.com/marcandrews/twitch-js). They did really awesome job.
 
-#### Support [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9ZTX5DS2XB5EN)
+#### Support [![Donate]
 
-If you want to support me, you can click a PayPal link above or you can contribute and we can create something great!
+If you want to support me, you can contribute and we can create something great!
